@@ -1,0 +1,73 @@
+@keyframes animation-1 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-8rem)
+    }
+}
+@keyframes animation-2 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-16rem)
+    }
+}
+@keyframes animation-3 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-24rem)
+    }
+}
+@keyframes animation-4 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-32rem)
+    }
+}
+@keyframes animation-5 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-40rem)
+    }
+}
+@keyframes animation-6 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-48rem)
+    }
+}
+@keyframes animation-7 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-56rem)
+    }
+}
+
+@keyframes animation-8 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-64rem)
+    }
+}
+@keyframes animation-9 {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-72rem)
+    }
+}
