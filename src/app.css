@@ -193,21 +193,10 @@ body{
 .chapter-menu-opacity-1{
     opacity: 1;
 }
-.chapter-page{
-    background-size: 100%;
-    transition: opacity 2s ease;
-    visibility: hidden;
-    opacity: 0;
-}
-.chapter-page-show{
-    visibility: visible;
-    opacity: 1;
-    padding-top: 100vh;
-}
 .chapter-menu .chapter-redirect-animation{
     top: 50%;
     left: 50% !important;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(2.0);
     transition: all .8s ease;
     transition-delay: .8s;
 }
@@ -235,13 +224,5 @@ body{
     to {
         height: 80%;
         opacity: 1;
-    }
-}
-@keyframes animation-three {
-    from {
-        
-    }
-    to {
-        transform: scale(2);
     }
 }
