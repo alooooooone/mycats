@@ -124,6 +124,7 @@ class App extends Component {
 	onClickChangePage = (index) => {
 		if(index !== this.state.currentPage){
 			document.documentElement.scrollTop = 0;
+			document.body.scrollTop = 0;
 
 			return () => {
 				this.setState({
