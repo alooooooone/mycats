@@ -16,7 +16,7 @@ class Photos extends Component{
             let chapter = document.getElementsByClassName("chapter-page");
             let items = chapter[currentPage].getElementsByClassName("chapter-page-item")
             document.addEventListener("scroll", function () {
-                let scrollTop = document.documentElement.scrollTop;
+                let scrollTop = document.documentElement.scrollTop + document.body.scrollTop;
                 let windowHeight = document.documentElement.clientHeight;
                 
                 Array.prototype.forEach.call(items,(item,index)=>{
