@@ -47,6 +47,10 @@
     text-align: center;
     color: #fff;
     cursor: pointer;
+    transition: opacity .8s ease;
+}
+.chapter-page-menu li:hover{
+    opacity: 1 !important;
 }
 .clearfix::after{
     content: "";
